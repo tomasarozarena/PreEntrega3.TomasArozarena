@@ -1,0 +1,29 @@
+$background-color_1: rgb(114, 110, 110);
+
+.logo__contactos {
+	height: 40px;
+	display: flex;
+	gap: 55px;
+	justify-content: center;
+	margin-top: 130px;
+	img {
+		height: 40px;
+	}
+}
+.titulo__principal__contacto {
+	margin-top: 200px;
+	h2 {
+		font-weight: bold;
+		font-size: 25px;
+	}
+}
+.footer__contacto {
+	height: 80px;
+	width: 100%;
+	background-color: $background-color_1;
+	margin-top: 345px;
+	h5 {
+		font-weight: bold;
+		font-size: 10px;
+	}
+}

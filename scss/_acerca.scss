@@ -1,0 +1,73 @@
+$color_1: aliceblue;
+$background-color_1: #444;
+$background-color_2: rgb(114, 110, 110);
+
+.cuerpo__acerca {
+	background-color: $background-color_1;
+}
+.main__acerca {
+	background-color: $background-color_1;
+	width: 95%;
+	height: 2900px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+.footer__acerca {
+	height: 80px;
+	width: 100%;
+	background-color: $background-color_2;
+	margin-top: 20px;
+	h5 {
+		font-size: 10px;
+		font-weight: bolder;
+		color: $color_1;
+	}
+}
+.container__acerca {
+	display: flex;
+	flex-direction: column;
+	h1 {
+		text-align: center;
+		padding: 5px;
+		font-weight: bolder;
+		color: $color_1;
+	}
+	p {
+		text-align: left;
+		padding: 5px;
+		font-size: 15px;
+		color: $color_1;
+	}
+}
+.ventajas__acerca {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	h1 {
+		text-align: center;
+		padding: 5px;
+		font-weight: bolder;
+		color: $color_1;
+	}
+	p {
+		font-size: 15px;
+		text-align: left;
+		color: $color_1;
+	}
+}
+.desventajas__acerca {
+	height: 500px;
+	background-color: $background-color_1;
+	h1 {
+		text-align: center;
+		padding: 5px;
+		font-weight: bolder;
+		color: $color_1;
+	}
+	p {
+		text-align: left;
+		padding: 5px;
+		font-size: 15px;
+		color: $color_1;
+	}
+}

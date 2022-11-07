@@ -116,9 +116,6 @@ p{
 
 
 
-/*-----------------------------------------------------------------*/
-
-
 .carta img{
     height: 80px;
     width: 250px;
@@ -240,6 +237,15 @@ p{
     padding: 20px;
     margin-top: 20px;
 }
+
+.main__acerca{
+    background-color: #444;
+    width: 95%;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
 
 
 
@@ -375,11 +381,6 @@ p{
     }
 
     
-
-
-
-
-
 }
 
 /*-----------------------PORTAFOLIO-----------------------------------*/
@@ -475,7 +476,7 @@ p{
     height: 80px;
     width: 100%;
     background-color: rgb(114, 110, 110);
-    margin-top: 340px;
+    margin-top: 345px;
 }
 
 .footer__contacto h5{
@@ -491,8 +492,8 @@ p{
 
 .main__acerca{
     background-color: #444;
-    height: 2900px;
     width: 95%;
+    height: 2900px;
     margin: 0px auto;
     margin-top: 30px;
     
@@ -553,7 +554,7 @@ p{
 }
 
 .desventajas__acerca{ 
-    height: 700px;
+    height: 500px;
     background-color: #444;
 }
 
@@ -570,3 +571,5 @@ p{
     font-size: 15px;
     color: aliceblue;
 }
+
+@media screen and (min-width:1440px)

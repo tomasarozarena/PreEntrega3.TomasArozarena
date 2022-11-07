@@ -1,0 +1,154 @@
+$color_1: blanchedalmond;
+$background-color_1: gray;
+$background-color_2: #444;
+
+@media screen and (min-width: 768px) {
+	.gallery-container {
+		height: 827px;
+		grid-auto-rows: 190px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.gallery__item {
+		&:nth-child(3) {
+			grid-column: span 1;
+		}
+		&:nth-child(2) {
+			grid-column: span 1;
+		}
+		&:nth-child(4) {
+			grid-column: span 1;
+		}
+		&:nth-child(6) {
+			grid-row-start: span 2;
+		}
+		&:nth-child(5) {
+			grid-column: span 2;
+			grid-row: span 2;
+		}
+		&:nth-child(7) {
+			grid-row: span 1;
+		}
+		&:nth-child(8) {
+			grid-row: span 1;
+		}
+	}
+	.seccion__divisora {
+		height: 1100px;
+		height: 1500px;
+		h3 {
+			margin-top: 20px;
+			font-size: 40px;
+			padding: 15px;
+		}
+	}
+	.boton__conoce {
+		margin-top: 30px;
+		background-color: $background-color_1;
+	}
+	.contenedor__cartas {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px;
+		margin-top: 20px;
+	}
+	.main__acerca {
+		background-color: $background-color_2;
+		width: 95%;
+		height: 100px;
+		margin: 0px auto;
+		margin-top: 30px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.gallery-container {
+		height: 827px;
+		grid-auto-rows: 190px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.gallery__item {
+		&:nth-child(3) {
+			grid-column: span 1;
+		}
+		&:nth-child(2) {
+			grid-column: span 1;
+		}
+		&:nth-child(4) {
+			grid-column: span 1;
+		}
+		&:nth-child(6) {
+			grid-row-start: span 2;
+		}
+		&:nth-child(5) {
+			grid-column: span 2;
+			grid-row: span 2;
+		}
+		&:nth-child(7) {
+			grid-row: span 1;
+		}
+		&:nth-child(8) {
+			grid-row: span 1;
+		}
+	}
+	.seccion__divisora {
+		height: 1100px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.gallery-container {
+		height: 920px;
+		grid-auto-rows: 215px;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: 25px;
+		grid-auto-rows: 200px;
+		padding: 20px;
+		grid-gap: 10px;
+	}
+	.contenedor__cartas {
+		display: flex;
+		width: 1330px;
+		margin: 0px auto;
+		flex-direction: row;
+		margin-top: 5px;
+	}
+	.carta {
+		height: 425px;
+		width: 325px;
+		img {
+			height: 80px;
+			width: 325px;
+			object-fit: cover;
+			border-radius: 15px 15px 0px 0px;
+		}
+	}
+	.seccion__divisora {
+		height: 1250px;
+		width: 100%;
+		background-color: $background-color_2;
+		h3 {
+			font-size: 50px;
+			font-weight: bold;
+		}
+	}
+	.cuerpo__carta {
+		h5 {
+			text-align: center;
+			margin-top: 25px;
+			font-weight: bolder;
+			color: $color_1;
+			font-size: 35px;
+		}
+		p {
+			font-size: 18px;
+			text-align: left;
+			padding: 11px;
+		}
+	}
+	.galleria-container {
+		display: grid;
+		grid-template-columns: repeat(1, 2fr);
+		grid-gap: 10px 10px;
+	}
+	.galleria__item {
+		height: 895px;
+	}
+}
