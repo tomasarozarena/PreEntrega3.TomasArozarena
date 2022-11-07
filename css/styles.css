@@ -241,6 +241,13 @@ p{
     margin-top: 20px;
 }
 
+
+
+
+
+
+
+
 }
 
 
@@ -300,7 +307,11 @@ p{
         height: 920px;
         grid-auto-rows: 215px;
         grid-template-columns: repeat(4, 1fr);
+        margin-top: 25px;
+
     }
+
+    
 
     .contenedor__cartas{
         display: flex;
@@ -353,58 +364,20 @@ p{
         font-weight: bold;
     }
 
+    .galleria-container{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 10px 10px ;
+    }
 
-    .galleria__item:nth-child(4) {
-        grid-column: span 2;
+    .galleria__item{
+        height: 895px;
     }
+
     
-    .galleria__item:nth-child(5) {
-        grid-row-start: span 2;
-    }
-    
-    .galleria__item:nth-child(1) {
-        grid-column: span 2;
-    }
-    
-    .galleria__item:nth-child(7) {
-        grid-row-start: span 2;
-    }
-    
-    .galleria__item:nth-child(9) {
-        grid-column: span 3;
-    }
-    
-    .galleria__item:nth-child(10) {
-        grid-column: span 2;
-    }
-    
-    .galleria__item:nth-child(11) {
-        grid-row: span 2;
-    }
-    
-    .galleria__item:nth-child(12) {
-        grid-row: span 2;
-    }
-    
-    .galleria__item:nth-child(14) {
-        grid-column: span 2;
-    }
-    
-    .galleria__item:nth-child(15) {
-        grid-column: span 3;
-    }
-    
-    .galleria__item:nth-child(16) {
-        grid-column: span 2;
-    }
-    
-    .galleria__item:nth-child(17) {
-        grid-row: span 2;
-    }
-    
-    .galleria__item:nth-child(18) {
-        grid-row: span 2;
-    }
+
+
+
 
 
 }
@@ -413,10 +386,8 @@ p{
 
 .galleria-container{
     display: grid;
-    grid-template-columns: repeat(5, 3fr);
-    grid-auto-rows: 400px;
-    padding: 20px;
-    grid-gap: 10px;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 10px ;
 }
 
 .galleria__img{
@@ -426,61 +397,13 @@ p{
     border-radius: 5px;
 }
 
-.galleria__item:nth-child(4) {
-    grid-column: span 2;
-}
-
-.galleria__item:nth-child(5) {
-    grid-row-start: span 2;
-}
-
-.galleria__item:nth-child(1) {
-    grid-column: span 2;
-}
-
-.galleria__item:nth-child(7) {
-    grid-row-start: span 2;
-}
-
-.galleria__item:nth-child(9) {
-    grid-column: span 3;
-}
-
-.galleria__item:nth-child(10) {
-    grid-column: span 2;
-}
-
-.galleria__item:nth-child(11) {
-    grid-row: span 2;
-}
-
-.galleria__item:nth-child(12) {
-    grid-row: span 2;
-}
-
-.galleria__item:nth-child(14) {
-    grid-column: span 2;
-}
-
-.galleria__item:nth-child(15) {
-    grid-column: span 3;
-}
-
-.galleria__item:nth-child(16) {
-    grid-column: span 2;
-}
-
-.galleria__item:nth-child(17) {
-    grid-row: span 2;
-}
-
-.galleria__item:nth-child(18) {
-    grid-row: span 2;
-}
 
 .galleria__item{
     position: relative;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 90%;
 }
 
 .galleria__item:hover{
@@ -510,6 +433,7 @@ p{
     height: 80px;
     width: 100%;
     background-color: #444;
+    margin-top: 10px;
 }
 
 
@@ -521,4 +445,128 @@ p{
 
 
 
-/*---------------------------------------------------------*/
+/*--------------------CONTACTO-------------------------------------*/
+
+
+.logo__contactos{
+    height: 40px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+
+
+.logo__contactos img{
+    height: 40px;
+}
+
+.titulo__principal__contacto{
+    margin-top: 200px;
+}
+
+.titulo__principal__contacto h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer__contacto{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(114, 110, 110);
+    margin-top: 340px;
+}
+
+.footer__contacto h5{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+/*------------------------ACERCA-------------------------------------*/
+
+.cuerpo__acerca{
+    background-color: #444;
+}
+
+.main__acerca{
+    background-color: #444;
+    height: 2900px;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 30px;
+    
+}
+
+.footer__acerca{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(114, 110, 110);
+    margin-top: 20px;
+
+}
+
+.footer__acerca h5{
+    font-size: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.container__acerca{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__acerca h1{
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.container__acerca p{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    color: aliceblue;
+    
+    
+}
+
+.ventajas__acerca{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ventajas__acerca h1{
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.ventajas__acerca p{
+    font-size: 15px;
+    text-align: left;
+    color: aliceblue;
+}
+
+.desventajas__acerca{ 
+    height: 700px;
+    background-color: #444;
+}
+
+.desventajas__acerca h1{
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.desventajas__acerca p{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
